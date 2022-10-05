@@ -45,11 +45,12 @@ public class Main {
         System.out.println("\nPrint a random Student:" + studentDBArray.randomStudent());
         System.out.println("\nPrint all Students:" + studentDBArray.getAllStudents());
 
-        ComputerScienceStudent nerd = new ComputerScienceStudent();
+        ComputerScienceStudentReal nerd = new ComputerScienceStudentReal();
         nerd.id = 7632;
         nerd.name = "Alfons";
 
-        System.out.println(nerd);
+        System.out.println(nerd.gender("female"));
+
 
     }
 }

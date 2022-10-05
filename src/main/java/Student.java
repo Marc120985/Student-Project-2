@@ -6,9 +6,12 @@ public class Student
     String name;
     int id;
 
-   @Override
+
+    @Override
    public String toString() {
        return "\nStudent: " + "\nName: " + name  +
                "\nStudentennummer: " + id;
    }
+
+
 }

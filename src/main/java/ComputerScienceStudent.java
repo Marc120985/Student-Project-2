@@ -1,6 +1,7 @@
-public class ComputerScienceStudent extends Student{
+public abstract class ComputerScienceStudent extends Student{
     private String hauptfach = "Informatik";
     private String nebenfach = "Englisch";
+
 
     public String getHauptfach() {
         return hauptfach;
@@ -24,4 +25,6 @@ public class ComputerScienceStudent extends Student{
                 "\nHauptfach: " + hauptfach  +
                 "\nNebenfach: " + nebenfach;
     }
+
+    public abstract String gender(String gender);
 }
