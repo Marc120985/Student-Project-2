@@ -54,6 +54,21 @@ public class Main {
         System.out.println(nerd);
         System.out.println("Gender: " + nerd.gender("Alien"));
 
+        System.out.println(nerd.getAdress());
+
+        BiologyStudent dennis = new BiologyStudent();
+        dennis.id = 88888;
+        dennis.name= "Dennis";
+
+
+        System.out.println(dennis.getIdentityCardNumber(352424));
+        System.out.println(dennis.getAdress());
+
+        Citizen frankestein = new BiologyStudent();
+        System.out.println(frankestein.getIdentityCardNumber(11111));
+        System.out.println(frankestein.getAdress());
+       // System.out.println(frankestein);
+
 
     }
 }

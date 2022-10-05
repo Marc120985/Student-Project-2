@@ -1,4 +1,4 @@
-public class ComputerScienceStudentReal extends ComputerScienceStudent{
+public class ComputerScienceStudentReal extends ComputerScienceStudent implements Citizen{
 
     @Override
     public String gender(String gender) {
@@ -8,5 +8,15 @@ public class ComputerScienceStudentReal extends ComputerScienceStudent{
     @Override
     public String toString() {
         return "\n" +"\nComputerScienceStudentReal " + super.toString();
+    }
+
+    @Override
+    public String getAdress() {
+        return "Street 5, NY City";
+    }
+
+    @Override
+    public int getIdentityCardNumber(int cardnumber) {
+        return cardnumber;
     }
 }
