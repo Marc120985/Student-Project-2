@@ -52,7 +52,7 @@ public class Main {
         nerd.gender("female");
 
         System.out.println(nerd);
-        System.out.println("Male: " + nerd.gender("Alien"));
+        System.out.println("Gender: " + nerd.gender("Alien"));
 
 
     }
