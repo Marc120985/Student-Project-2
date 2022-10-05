@@ -64,7 +64,10 @@ public class Main {
         System.out.println(dennis.getIdentityCardNumber(352424));
         System.out.println(dennis.getAdress());
 
-        Citizen frankestein = new BiologyStudent();
+        BiologyStudent frankestein = new BiologyStudent();
+        frankestein.name = "Frankenstein";
+        frankestein.id = 333333;
+
         System.out.println(frankestein.getIdentityCardNumber(11111));
         System.out.println(frankestein.getAdress());
        // System.out.println(frankestein);

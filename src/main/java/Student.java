@@ -13,5 +13,7 @@ public class Student
                "\nStudentennummer: " + id;
    }
 
-
+    public int getId() {
+        return id;
+    }
 }
