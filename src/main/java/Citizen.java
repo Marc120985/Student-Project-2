@@ -1,5 +1,7 @@
 public interface Citizen {
 
-    public String getAdress();
-    public int getIdentityCardNumber(int cardnumber);
+    //public steht immer automatisch davor und kann dehalb weggelassen werden
+     String getAdress();
+
+     int getIdentityCardNumber(int cardnumber);
 }
