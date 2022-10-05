@@ -49,7 +49,10 @@ public class Main {
         nerd.id = 7632;
         nerd.name = "Alfons";
 
-        System.out.println(nerd.gender("female"));
+        nerd.gender("female");
+
+        System.out.println(nerd);
+        System.out.println("Male: " + nerd.gender("Alien"));
 
 
     }
