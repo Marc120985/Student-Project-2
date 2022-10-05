@@ -20,11 +20,8 @@ public class ComputerScienceStudent extends Student{
 
     @Override
     public String toString() {
-        return "ComputerScienceStudent{" +
-                "hauptfach='" + hauptfach + '\'' +
-                ", nebenfach='" + nebenfach + '\'' +
-                ", name='" + name + '\'' +
-                ", id=" + id +
-                '}';
+        return "\nComputerScienceStudent: " + super.toString() +
+                "\nHauptfach: " + hauptfach  +
+                "\nNebenfach: " + nebenfach;
     }
 }
