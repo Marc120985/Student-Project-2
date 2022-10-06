@@ -70,7 +70,7 @@ public class Main {
 
         System.out.println(frankestein.getIdentityCardNumber(11111));
         System.out.println(frankestein.getAdress());
-       // System.out.println(frankestein);
+        System.out.println(frankestein);
 
 
     }
