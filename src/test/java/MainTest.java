@@ -27,7 +27,7 @@ class MainTest {
         ArrayList<Student> expected = new ArrayList<>();
         expected.add(testStudent);
         expected.add(testStudent1);
-        assertEquals("gehtGarNicht",actual);
+        assertEquals(expected,actual);
     }
 
 
